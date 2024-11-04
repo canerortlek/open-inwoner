@@ -64,7 +64,7 @@
     "@babel/preset-env": "latest",
     "@types/leaflet": "^1.7.6",
     "@utrecht/component-library-css": "3.0.1-alpha.0",
-    "@utrecht/components": "3.0.1-alpha.0",
+    "@utrecht/components": "3.0.1-alpha.42",
     "autoprefixer": "^9.0.0",
     "babel-loader": "^8.2.5",
     "chai": "latest",
