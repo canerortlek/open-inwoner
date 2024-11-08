@@ -21,7 +21,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libxml2-dev libxmlsec1-dev libxmlsec1-openssl
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - uses: isort/isort-action@v0.1.0
@@ -40,7 +40,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libxml2-dev libxmlsec1-dev libxmlsec1-openssl
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install dependencies
@@ -99,7 +99,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install system packages
@@ -145,7 +145,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libxml2-dev libxmlsec1-dev libxmlsec1-openssl
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install dependencies
