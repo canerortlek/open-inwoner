@@ -100,7 +100,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.13'
       - name: Install coverage.py
         # We only need coverage, but we need to match the version that was used
         # to generate the coverage files. Grab it from the dependencies.

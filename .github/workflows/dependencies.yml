@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.13'
 
       - name: Install pip-tools
         run: pip install pip-tools
@@ -45,7 +45,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.13'
 
       - name: Install OS-level deps
         run: brew install postgresql
